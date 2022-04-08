@@ -1,5 +1,8 @@
-//! React Component
+//! React Function Component
 export const Component: React.FC = () => {}
+
+//! React Component
+export class Names extends React.Component<{}, INamesState>
 
 //! React Component porps
 export const Component: React.FC<propsinterface> = () => {}
@@ -34,3 +37,5 @@ const keyPressHandler = (event: React.KeyboardEvent) => {
         setTitle("")
     }
 }
+
+
