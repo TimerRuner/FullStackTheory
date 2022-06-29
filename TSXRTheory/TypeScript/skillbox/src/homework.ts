@@ -22,7 +22,7 @@ const MyHometask: IMyHometsk = {
 
 //! 3 ===========================
 interface MyArray<T> {
-    [N: number]: T
+    [n: number]: T
     reduce<U>(
         fn: (accumulator: U, value: T, index: number, array: MyArray<T>) => U,
         initialValue: U
